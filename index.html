@@ -20,7 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">My Portfolio</a>
+                <a class="navbar-brand" href="#page-top">Evan Hoefling</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -39,7 +39,7 @@
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Hi, my name is Evan (He/Him)</h1>
+                <h1 class="masthead-heading text-uppercase mb-0">Hi, my name is Evan</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -63,7 +63,7 @@
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
+                    <!-- Portfolio Item-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -72,13 +72,22 @@
                             <img class="img-fluid" src="assets/img/lapcat_thumb.jpeg" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
+                    <!-- Portfolio Item-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Movie Recommendation Engine</div>
                             </div>
                             <img class="img-fluid" src="assets/img/movie_rec_thumbnail.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalAmes">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Ames Housing Prices</div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/real_thumb.jpeg" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -115,9 +124,7 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            4 Salt Brook Road
-                            <br />
-                            New Providence, NJ 07974
+                            New York City - Washington D.C.
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
@@ -175,6 +182,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Portfolio Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -196,6 +204,39 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/cinema_theater.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">I created and implemented a movie recommendation engine using the classic MovieLens 1M dataset. I wanted to create a hybrid engine that would look at both user prefrence, and user-item interactions to guess how much a user would like a given movie. Check out the project <a href='https://github.com/evanh1393/dsi_capstone'>here</a></p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ames Project -->
+        <div class="portfolio-modal modal fade" id="portfolioModalAmes" tabindex="-1" aria-labelledby="portfolioModalAmes" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ames Housing Prices</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/real_estate.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I created an ananlysis, and model for predicting housing prices in Ames Iowa allowing real estate investors to better identify housing features that would increasen sale value of a house. My Model achieved 2nd place in the group Kaggle competition. Check out the project <a href='https://github.com/evanh1393/ames_housing'>here</a></p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
